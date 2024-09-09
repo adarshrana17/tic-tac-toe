@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(135deg, #ae00ff, #ff00ff);
+  /* background-image: url("wood-ivy-green-leaves.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin-top: 20px;
+  margin-left: 7%;
+  color: rgb(51, 216, 51);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:70px;
+  -webkit-text-stroke: 3px black;
+}
+h2{
+  margin-left: 4%;
+}
+.exit{
+  font-size: 2rem;
+  float: right;
+  margin-top: -15px;
+  margin-right: 20px;
+}
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 6px;
+  border: none;
+  box-shadow:0 0 1rem black ;
+  font-size: 8vmin;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 251, 251);
+}
+.rstbtn{
+  box-shadow: 0 0 1rem rgb(10, 10 ,10) ;
+  background-color: black;
+  font-size: 1rem;
+  color: aliceblue;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: none;
+  width: 98px;
+  margin-left: 3.5%;
+  margin-top: -25px;
+}
+.rstbtn:active{
+  transform: scale(0.98);
+}
+
+#msg{
+  color: rgba(255, 0, 0, 0.781);
+  font-size: 8vmin;
+  margin-top: 3%;
+
+}
+.msg-container{
+  height: 20vmin;
+}
+.hide{
+  display: none;
+}
+.exit:active{
+  transform: scale(0.98);
+}
+.msg-container{
+  height: 200px;
+  width: 500px;
+  background: aquamarine;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+}
+.msg-container #newbtn{
+  box-shadow: 0 0 1rem rgb(10, 10 ,10) ;
+  background-color: black;
+  font-size: 1rem;
+  color: aliceblue;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: none;
+  width: 110px;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+.msg-container #newbtn:active{
+  transform: scale(0.98);
+}
+.info{
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
